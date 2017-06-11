@@ -20,8 +20,8 @@ console.log(ray);
 
 
 //EXAMPLE #2
-var play = [...Array(100).keys()];
-play = play.map(i => i + 1)
+var rayray = [...Array(100).keys()];
+rayray = play.map(i => i + 1)
   .map(i => i % 15 == 0 ? "FizzBuzz" : i)
   .map(i => i % 3  == 0 ? "Fizz" : i)
   .map(i => i % 5  == 0 ? "Buzz" : i)
