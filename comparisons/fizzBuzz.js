@@ -1,10 +1,10 @@
 //Functional
-var rayray = [...Array(100).keys()];
-rayray = rayray.map(i => i + 1)
+var ray = [...Array(100).keys()];
+ray = ray.map(i => i + 1)
   .map(i => i % 15 == 0 ? "FizzBuzz" : i)
   .map(i => i % 3  == 0 ? "Fizz" : i)
   .map(i => i % 5  == 0 ? "Buzz" : i)
-console.log(rayray)
+console.log(ray)
 
 //Declarative
 const options = {
